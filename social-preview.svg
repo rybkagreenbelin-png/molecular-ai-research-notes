@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+  <rect x="0" y="0" width="1280" height="640" fill="#10141D"/>
+
+  <defs>
+    <marker id="consA" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#E39A5C" stroke-width="1.8"/>
+    </marker>
+  </defs>
+
+  <!-- ==================== typography, left ==================== -->
+  <text x="92" y="272" fill="#E6EAF2" font-size="70" font-weight="bold" letter-spacing="3">MOLECULAR AI</text>
+  <rect x="94" y="296" width="268" height="6" fill="#E39A5C"/>
+  <text x="94" y="350" fill="#C9CFDB" font-size="30">Temporal plasticity for a frozen brain</text>
+  <text x="94" y="398" fill="#8A93A6" font-size="15" letter-spacing="5">RESEARCH NOTE · V0.1 · CC BY 4.0</text>
+
+  <!-- ==================== line-art motif, right band x 810–1246 ==================== -->
+  <!-- incoming molecule (top), dotted afferent path into the loop -->
+  <g stroke="#8A93A6" stroke-width="1.6" fill="none">
+    <circle cx="896" cy="86" r="9"/>
+    <line x1="872" y1="86" x2="880" y2="86"/>
+    <line x1="912" y1="86" x2="920" y2="86"/>
+    <line x1="896" y1="62" x2="896" y2="70"/>
+  </g>
+  <path d="M 922 94 C 988 116, 1020 146, 1026 202" fill="none" stroke="#55607A" stroke-width="1.5" stroke-dasharray="3 6"/>
+
+  <!-- kernel: the frozen brain, mid layers amber -->
+  <rect x="972" y="212" width="112" height="228" rx="14" fill="none" stroke="#8A93A6" stroke-width="2"/>
+  <g stroke="#55607A" stroke-width="2">
+    <line x1="992" y1="244" x2="1064" y2="244"/>
+    <line x1="992" y1="269" x2="1064" y2="269"/>
+    <line x1="992" y1="294" x2="1064" y2="294"/>
+    <line x1="992" y1="394" x2="1064" y2="394"/>
+    <line x1="992" y1="416" x2="1064" y2="416"/>
+  </g>
+  <g stroke="#E39A5C" stroke-width="2.4">
+    <line x1="992" y1="319" x2="1064" y2="319"/>
+    <line x1="992" y1="344" x2="1064" y2="344"/>
+    <line x1="992" y1="369" x2="1064" y2="369"/>
+  </g>
+
+  <!-- molecule graph around the kernel -->
+  <g stroke="#55607A" stroke-width="1.6" fill="none">
+    <path d="M 868 268 C 908 260, 942 272, 970 292"/>
+    <path d="M 862 378 C 906 390, 940 382, 970 362"/>
+    <path d="M 1086 278 C 1122 268, 1150 274, 1172 292"/>
+    <path d="M 1086 388 C 1118 398, 1142 394, 1162 380"/>
+    <path d="M 868 268 C 852 304, 850 342, 862 378"/>
+  </g>
+  <circle cx="928" cy="264" r="4.5" fill="#E39A5C"/>
+  <circle cx="1136" cy="272" r="4.5" fill="#E39A5C"/>
+
+  <!-- molecules: rounded squares with tiny cores -->
+  <g fill="none" stroke="#8A93A6" stroke-width="1.8">
+    <rect x="838" y="242" width="46" height="46" rx="10"/>
+    <rect x="832" y="354" width="46" height="46" rx="10"/>
+    <rect x="1164" y="270" width="46" height="46" rx="10"/>
+    <rect x="1140" y="358" width="46" height="46" rx="10"/>
+  </g>
+  <circle cx="861" cy="265" r="6" fill="none" stroke="#E39A5C" stroke-width="1.6"/>
+  <g fill="none" stroke="#55607A" stroke-width="1.6">
+    <circle cx="855" cy="377" r="6"/>
+    <circle cx="1187" cy="293" r="6"/>
+    <circle cx="1163" cy="381" r="6"/>
+  </g>
+
+  <!-- sleep: crescent moon, lower right; consolidation arc into the kernel, amber -->
+  <path d="M 1148 486 a 27 27 0 1 0 24 42 a 33 33 0 0 1 -24 -42" fill="none" stroke="#8A93A6" stroke-width="1.8"/>
+  <path d="M 1128 506 C 1064 520, 1016 500, 1004 452" fill="none" stroke="#E39A5C" stroke-width="2" marker-end="url(#consA)"/>
+
+  <!-- ground line -->
+  <line x1="812" y1="560" x2="1240" y2="560" stroke="#2A3040" stroke-width="2"/>
+</svg>

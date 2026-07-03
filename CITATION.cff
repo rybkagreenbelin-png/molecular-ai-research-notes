@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite it as below."
+title: "Molecular AI: Temporal Plasticity for a Frozen Brain (research notes)"
+authors:
+  - name: "The Molecular AI author (pseudonymous)"
+type: generic
+version: "0.1"
+date-released: "2026-07-03"
+license: CC-BY-4.0
+url: "https://rybkagreenbelin-png.github.io/molecular-ai-research-notes/"
+repository-code: "https://github.com/rybkagreenbelin-png/molecular-ai-research-notes"
+abstract: >-
+  Research notes of an open programme studying the continuously
+  running learning process as the living mechanism of intelligence.
+  A frozen transformer already carries five of six properties of
+  living intelligence implicitly; the programme adds the sixth —
+  temporal plasticity — through an external architecture of processes
+  (salience triggers at the entrance, a typed graph of knowledge
+  molecules with a lifecycle, sleep-cycle consolidation into LoRA,
+  an observer on mid-layer activations, language shelves).
+keywords:
+  - continual-learning
+  - memory
+  - agents
+  - complementary-learning-systems
+  - research-notes
