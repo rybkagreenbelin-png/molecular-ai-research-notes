@@ -61,6 +61,13 @@ The most useful thing you can leave here is **criticism**: open an
 issue or a discussion with an objection to any thesis, a counterexample
 to the maturity map, or a pointer to work we have missed.
 
+## Related
+
+* [Afferent OS](https://github.com/rybkagreenbelin-png/afferent-os) —
+  a companion concept note by the same author: the operating system
+  as the AI's body. Its afferent perception and learning loop connect
+  to this programme's chronicler and single-aggregator principle.
+
 ## License & authorship
 
 Text and figures — [CC BY 4.0](./LICENSE). Citation metadata —
